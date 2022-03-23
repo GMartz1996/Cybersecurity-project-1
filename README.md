@@ -96,7 +96,7 @@ SSH into the control node and follow the steps below:
 
 ### Playbook Commands
 
-- Install ELK to server IP address specified in hosts.yml
+- Install ELK to desired ELK server IP address specified in hosts.yml
   - ansible-playbook install-ELK.yml
 
 - Install filebeat to web server IP addresses specified in filebeat-config.yml

@@ -58,7 +58,7 @@ A summary of the access policies in place can be found in the table below.
 | Web 2      | no                  | 98.31.0.88  | 20.127.29.66
 | ELK Server | yes                 | 98.31.0.88  | 20.127.29.66
 
-- Web 1 and Web 2 are accessible via an HTTP link through the load balancer
+- Web 1 and Web 2 are accessible via an connection link through the load balancer
 
 ### Elk Configuration
 

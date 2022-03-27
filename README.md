@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[[(~/Cybersecurity-project-1/Diagrams/'Week-13-Project-1-Network.png')]
+![Network Diagram](https://github.com/Gmartz96/Cybersecurity-project-1/blob/main/Diagrams/Week-13-Project-1-Network.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible directory may be used to install only certain pieces of it, such as Filebeat.
 

@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-[Network Diagram]https://github.com/GMartz1996/Cybersecurity-project-1/blob/main/Diagrams/Week-13-Project-1-Network.png
+![Network Diagram]https://github.com/GMartz1996/Cybersecurity-project-1/blob/main/Diagrams/Week-13-Project-1-Network.png
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible directory may be used to install only certain pieces of it, such as Filebeat.
 
@@ -75,7 +75,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Properly deployed and running ELK container]https://github.com/GMartz1996/Cybersecurity-project-1/blob/main/Diagrams/Running-ELK-Container.png
+![Properly deployed and running ELK container]https://github.com/GMartz1996/Cybersecurity-project-1/blob/main/Diagrams/Running-ELK-Container.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -92,8 +92,10 @@ These Beats allow us to collect the following information from each machine:
 
 The following screenshot confirms that Kibana is receiving traffic log data from Web 1 and Web 2.
 
-[Kibana traffic log data]https://github.com/GMartz1996/Cybersecurity-project-1/blob/main/Diagrams/Kibana-Receiving-logs-from-Web-1-and-Web-2.PNG
+![Kibana traffic log data]https://github.com/GMartz1996/Cybersecurity-project-1/blob/main/Diagrams/Kibana-Receiving-logs-from-Web-1-and-Web-2.PNG
+
 ### Using the Playbook
+
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
